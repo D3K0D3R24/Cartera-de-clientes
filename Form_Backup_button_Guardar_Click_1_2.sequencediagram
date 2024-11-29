@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="6e731a81-256a-4293-a6e7-adf81a62652d" name="Form_Backup_button_Guardar_Click_1" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="051f26d1-a30d-45da-9e7f-e23fb48ad1be" name="Form_Backup_button_Guardar_Click_1" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="9eb80656-55c2-48b4-a084-72478974da28" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="6e9afabf-b6a9-4d0a-a08f-aa8e58247d10" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="9ac04233-384a-4999-8a99-0fc3d9b8a554" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="27c960c8-7a4b-455d-b396-2dc85f718850" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="9ecdb236-979f-4b0e-aab1-c99070a7310f" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="88360269-956c-4817-bcee-5cd4d79bebcc" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="8777f8bf-7df4-49f7-864a-b028ce769a2c" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="171e7fa6-c4f5-4c5c-9528-273ee52a8155" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="1a9fc230-5d80-4e69-a979-e6920e735360" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="a2f60381-5be8-4c1c-b7ab-4ae8ffcd0059" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="ae24c0b7-2c9d-4e7c-9bc1-fe95270674ff" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="d670b1ae-262f-4032-acba-3652cf113739" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="043e9453-2c98-48ac-bb4d-2c560d5419d3" LastKnownName="OperandOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="9ac04233-384a-4999-8a99-0fc3d9b8a554" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="42074400-a80f-4e8b-a1e5-cb4a19b95424" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="4735eb87-b380-4cad-b900-f917d252757e" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="27c960c8-7a4b-455d-b396-2dc85f718850" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment Id="1cef9115-4265-45f2-a536-5bcab278428d" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Try">
+            <coveredLifelines>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="a3fcc062-1d14-4e49-9626-1e1a4dc2a832" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+                  <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+                  <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+                  <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment Id="5823ea52-2f76-4e10-ad14-de2af04fc63a" name="CombinedFragment1" interactionOperator="Opt" customInteractionOperator="If">
+                    <coveredLifelines>
+                      <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+                      <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+                      <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+                      <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand Id="95e5334e-e40c-4983-9ddd-ac79b560d4d7" name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+                          <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+                          <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+                          <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="e1631c66-c2f8-45e8-bb12-8c7714764170" guardText="if (saveFileDialog1.ShowDialog() == DialogResult.OK)" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="88360269-956c-4817-bcee-5cd4d79bebcc" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="a2f60381-5be8-4c1c-b7ab-4ae8ffcd0059" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="cc0fe157-d647-4527-a930-2c40b3ef7c73" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="48523ff4-63b9-420d-8074-944f203d0ce3" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="901e9e25-c6cf-4e96-a4b0-e66dbf6b3ff0" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="801f0854-b569-49c7-a7ea-268a0dc242f3" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="17c61989-f2eb-45e9-bb2f-0d66d7ade8e3" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="fe854699-1bb4-4fbd-9ae3-762e7d1b9a2d" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint Id="091e7d6c-bfb4-4100-802b-9781aa79c9b0" guardText="try" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="9ecdb236-979f-4b0e-aab1-c99070a7310f" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="ae24c0b7-2c9d-4e7c-9bc1-fe95270674ff" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="5f6deb24-49e3-49db-a91a-e7fde0d98b63" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="d26bb444-5d2e-4502-a7e1-4cf967d733e5" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="6d49319d-58b5-417b-a1ed-7fa5ae3ad266" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="20a60b1c-78c4-4d7c-b787-b79d065626c7" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="27ce6d64-ee51-4bd3-a6d5-ba9281a6e393" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="1894ca48-cb3c-46b8-b09c-478cd67f4ad8" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+              <interactionOperand Id="bc92a86d-09c3-4955-a1dd-7a7ff7fe0db1" name="InteractionOperand2">
+                <coveredLifelines>
+                  <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+                  <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+                  <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+                  <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="b950d854-83f4-4b86-822f-52387ff48469" guardText="catch (Exception)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="d670b1ae-262f-4032-acba-3652cf113739" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="043e9453-2c98-48ac-bb4d-2c560d5419d3" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="b9ea2121-19f8-424a-b2b1-1be580a00860" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="8801a21a-6169-422f-89e5-c8153c4ab379" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="8e3d4370-8515-480e-900c-d66758b09fb9" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="004d554a-a14d-4b2e-98ff-b464bd890cdf" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="c192e837-3577-4e6e-9cc7-3a9d7348bdc0" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="535ac3f3-3c1b-411c-99a2-a107623ccda8" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="27ce6d64-ee51-4bd3-a6d5-ba9281a6e393" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9ecdb236-979f-4b0e-aab1-c99070a7310f" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="6d49319d-58b5-417b-a1ed-7fa5ae3ad266" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="5f6deb24-49e3-49db-a91a-e7fde0d98b63" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="17c61989-f2eb-45e9-bb2f-0d66d7ade8e3" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="88360269-956c-4817-bcee-5cd4d79bebcc" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="cc0fe157-d647-4527-a930-2c40b3ef7c73" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="901e9e25-c6cf-4e96-a4b0-e66dbf6b3ff0" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8777f8bf-7df4-49f7-864a-b028ce769a2c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="21270e62-88b7-4f71-ac16-d3a18804bee7" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="1a9fc230-5d80-4e69-a979-e6920e735360" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="171e7fa6-c4f5-4c5c-9528-273ee52a8155" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="5f0f09eb-43e4-4247-9018-3119bb547a15" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="6b77a463-5d73-4991-b568-4612920c7f53" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="1f0bb313-241b-47f7-b211-b8cb6100153c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="24c0bb4a-370f-419e-83ea-a3ab23451964" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="d80e7d88-8323-4919-a267-5e6f08e1b488" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e6769c9b-df68-404f-a87d-f89adbfeb6c2" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="ec49474e-06f1-4b88-9bf5-024eaf11f9c0" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="e077fc81-3b7c-41d9-88a8-f0eea2ddbeb2" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="9492a13f-d681-4fab-9bf3-a388ff55d84c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="ee8d5e3d-1111-49e6-8f6b-19625fee8b1c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="c7b1dc1c-48db-4691-8c29-9e4cf7adabbc" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="171e7fa6-c4f5-4c5c-9528-273ee52a8155" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6299d8f8-3559-4539-9941-4e32be836957" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5f0f09eb-43e4-4247-9018-3119bb547a15" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="70afdb20-64c7-48f6-9974-21b3f52e9209" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="12c0dd04-cd10-4c6e-9ec5-f491a07161e5" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="b76d53ad-318e-40de-8004-5267a4028b6b" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="531209dd-e4f8-4bb9-8f59-52ac76ee68ab" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="b989e13f-2360-4c7b-8d62-0022455e250e" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="b76d53ad-318e-40de-8004-5267a4028b6b" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="8965400b-404c-4a34-96b4-b517b15413d7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="531209dd-e4f8-4bb9-8f59-52ac76ee68ab" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6b77a463-5d73-4991-b568-4612920c7f53" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1f0bb313-241b-47f7-b211-b8cb6100153c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b989e13f-2360-4c7b-8d62-0022455e250e" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="12c0dd04-cd10-4c6e-9ec5-f491a07161e5" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="90a2f07b-9f8f-4cc9-8c18-f180223bcaad" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="29a23e3d-ad4d-425e-a135-c3ac3ebc6aa6" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="1f449637-6749-4523-a1a6-25429c2d76ef" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="ec7abc3a-a051-46c3-850f-d40dd41b53ab" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="4d15e0cc-3fa2-4545-b371-66f202be8152" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="022ab4ff-4959-494e-b3e7-96d9eafcccea" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="ec7abc3a-a051-46c3-850f-d40dd41b53ab" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="fb62b6b1-cb74-4fd7-a88d-da812790ddec" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="24c0bb4a-370f-419e-83ea-a3ab23451964" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4d15e0cc-3fa2-4545-b371-66f202be8152" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d80e7d88-8323-4919-a267-5e6f08e1b488" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="022ab4ff-4959-494e-b3e7-96d9eafcccea" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="1f449637-6749-4523-a1a6-25429c2d76ef" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5db78a9c-c028-4ddc-bb31-60b8ec3d939f" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="349e163b-1562-4fc6-8249-f4a917e45664" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="5e460f79-5dfd-40c6-b534-4dc3d90ae419" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="44bf6282-a884-474f-b79d-07357a53abb2" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="b71bd233-a0d3-4d89-82b5-4bbc8795cebf" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="f06799e1-d403-4b0f-9b23-9e4c49eb187a" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="44bf6282-a884-474f-b79d-07357a53abb2" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="21b0d355-0efc-4876-a8d9-4b53bdb4e10b" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e6769c9b-df68-404f-a87d-f89adbfeb6c2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b71bd233-a0d3-4d89-82b5-4bbc8795cebf" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="f06799e1-d403-4b0f-9b23-9e4c49eb187a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ec49474e-06f1-4b88-9bf5-024eaf11f9c0" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="5e460f79-5dfd-40c6-b534-4dc3d90ae419" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d36f59ae-f894-4b93-8008-5e5ed7d2b2dd" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="28645097-556c-4f7a-9fe6-64e7d9818c5e" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="fdf42fd7-9931-4150-b00d-5544af4a95f7" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="5809f87d-e267-4d6e-95e0-bba32b44b8dd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="830600b7-f0a1-43c0-9e17-df7d204ee1ff" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="5ea8a829-ce21-4c67-bd1d-918f097be24f" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="5809f87d-e267-4d6e-95e0-bba32b44b8dd" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4f57b3ca-3b61-41c2-b1bc-a06eee8dbf20" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="830600b7-f0a1-43c0-9e17-df7d204ee1ff" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e077fc81-3b7c-41d9-88a8-f0eea2ddbeb2" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="5ea8a829-ce21-4c67-bd1d-918f097be24f" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="9492a13f-d681-4fab-9bf3-a388ff55d84c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="fdf42fd7-9931-4150-b00d-5544af4a95f7" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="84ecadb4-1ca8-4903-99c8-206f2fb810e4" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="e217a94a-728c-4d4f-bd30-fd759177b29d" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="63b918ae-416e-4356-a14b-9fef0c8d4846" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="645fc65f-7386-45bd-999b-a39468f05363" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="8a6dffc6-d136-427a-843a-1ba8dc34576a" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="7d5bf8f6-0fbf-4b38-83de-2df7e608d752" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="645fc65f-7386-45bd-999b-a39468f05363" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6c078417-37f2-4006-92a2-4f6a0d32781f" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ee8d5e3d-1111-49e6-8f6b-19625fee8b1c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8a6dffc6-d136-427a-843a-1ba8dc34576a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="c7b1dc1c-48db-4691-8c29-9e4cf7adabbc" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="7d5bf8f6-0fbf-4b38-83de-2df7e608d752" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="63b918ae-416e-4356-a14b-9fef0c8d4846" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="a2aff25d-5779-4efa-9002-e13e33e3499a" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="1a9fc230-5d80-4e69-a979-e6920e735360" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4a5d51d9-9b0f-4dc2-b3f1-af3a032d612e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="fe854699-1bb4-4fbd-9ae3-762e7d1b9a2d" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="48523ff4-63b9-420d-8074-944f203d0ce3" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="a2f60381-5be8-4c1c-b7ab-4ae8ffcd0059" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="801f0854-b569-49c7-a7ea-268a0dc242f3" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="20a60b1c-78c4-4d7c-b787-b79d065626c7" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="d26bb444-5d2e-4502-a7e1-4cf967d733e5" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="ae24c0b7-2c9d-4e7c-9bc1-fe95270674ff" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="1894ca48-cb3c-46b8-b09c-478cd67f4ad8" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c192e837-3577-4e6e-9cc7-3a9d7348bdc0" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="d670b1ae-262f-4032-acba-3652cf113739" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="b9ea2121-19f8-424a-b2b1-1be580a00860" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8e3d4370-8515-480e-900c-d66758b09fb9" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="043e9453-2c98-48ac-bb4d-2c560d5419d3" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8801a21a-6169-422f-89e5-c8153c4ab379" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="2cd20f2a-e24d-4f97-83be-205623817563" LastKnownName="comando : MySqlCommand" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="004d554a-a14d-4b2e-98ff-b464bd890cdf" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" LastKnownName="Backup : MySqlBackup" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="535ac3f3-3c1b-411c-99a2-a107623ccda8" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" LastKnownName="this.conexion : MySqlConnection" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="6e9afabf-b6a9-4d0a-a08f-aa8e58247d10" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="6fdf0c78-f699-4662-a9be-a246335d75c3" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" LastKnownName="this : Form_Backup" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="89117c13-2ee6-4a65-99c2-c313f5978ba4" name="this : Form_Backup" isActor="false" lifelineDisplayName="this : Form_Backup" referencedInstance="(Assembly=&quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&quot; Namespace=Respaldo Type=Form_Backup ObjectInstance=&quot;Object instance 3&quot;)" referencedType="Respaldo‎.Form_Backup">
+            <referencesInternal>
+              <reference Id="4551fa9e-72e2-4ecb-b10a-a4956d51a030" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Respaldo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&amp;quot; Namespace=Respaldo Type=Form_Backup)&quot;)" tag="DGQL" />
+              <reference Id="5dc2ee17-773e-495d-921d-7af20f4473b1" handle="(Assembly=&quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&quot; Namespace=Respaldo Type=Form_Backup)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="9ac04233-384a-4999-8a99-0fc3d9b8a554" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="6e9afabf-b6a9-4d0a-a08f-aa8e58247d10" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="2cd20f2a-e24d-4f97-83be-205623817563" name="comando : MySqlCommand" isActor="false" lifelineDisplayName="comando : MySqlCommand" referencedInstance="(Assembly=&quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand ObjectInstance=&quot;Object instance 15&quot;)" referencedType="MySql‎.Data‎.MySqlClient‎.MySqlCommand">
+            <referencesInternal>
+              <reference Id="8cb36f2e-85d0-4aa8-a8e2-f192a1685435" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand)&quot;)" tag="DGQL" />
+              <reference Id="41be8e8d-3282-40c0-8d44-f88dd66f35f4" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="5f6deb24-49e3-49db-a91a-e7fde0d98b63" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="cc0fe157-d647-4527-a930-2c40b3ef7c73" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b76d53ad-318e-40de-8004-5267a4028b6b" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="12c0dd04-cd10-4c6e-9ec5-f491a07161e5" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="48523ff4-63b9-420d-8074-944f203d0ce3" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="d26bb444-5d2e-4502-a7e1-4cf967d733e5" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="b9ea2121-19f8-424a-b2b1-1be580a00860" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8801a21a-6169-422f-89e5-c8153c4ab379" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="a8f75afe-d42d-471d-b6c4-5dd9e2304a59" name="Backup : MySqlBackup" isActor="false" lifelineDisplayName="Backup : MySqlBackup" referencedInstance="(Assembly=&quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup ObjectInstance=&quot;Object instance 17&quot;)" referencedType="MySql‎.Data‎.MySqlClient‎.MySqlBackup">
+            <referencesInternal>
+              <reference Id="b2ac9906-6a73-4a14-b5f2-2a2604df9199" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup)&quot;)" tag="DGQL" />
+              <reference Id="2fa07c81-93ad-4bd6-ab40-914b7f295175" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="6d49319d-58b5-417b-a1ed-7fa5ae3ad266" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="901e9e25-c6cf-4e96-a4b0-e66dbf6b3ff0" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="ec7abc3a-a051-46c3-850f-d40dd41b53ab" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="1f449637-6749-4523-a1a6-25429c2d76ef" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="5809f87d-e267-4d6e-95e0-bba32b44b8dd" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="fdf42fd7-9931-4150-b00d-5544af4a95f7" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="801f0854-b569-49c7-a7ea-268a0dc242f3" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="20a60b1c-78c4-4d7c-b787-b79d065626c7" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8e3d4370-8515-480e-900c-d66758b09fb9" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="004d554a-a14d-4b2e-98ff-b464bd890cdf" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="9f19b2da-a11a-46f6-ab69-b9f2f7fd5e9a" name="this.conexion : MySqlConnection" isActor="false" lifelineDisplayName="this.conexion : MySqlConnection" referencedInstance="(Assembly=&quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&quot; Namespace=Respaldo Type=Form_Backup Member=conexion ObjectInstance=&quot;Object instance 19&quot;)" referencedType="MySql‎.Data‎.MySqlClient‎.MySqlConnection">
+            <referencesInternal>
+              <reference Id="b0597971-a9cf-47c2-9e26-9389ef6aa3c6" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection)&quot;)" tag="DGQL" />
+              <reference Id="f782dc4e-88a8-42a8-ad0f-d31c501cc0e1" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="27ce6d64-ee51-4bd3-a6d5-ba9281a6e393" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="17c61989-f2eb-45e9-bb2f-0d66d7ade8e3" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="44bf6282-a884-474f-b79d-07357a53abb2" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="5e460f79-5dfd-40c6-b534-4dc3d90ae419" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="645fc65f-7386-45bd-999b-a39468f05363" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="63b918ae-416e-4356-a14b-9fef0c8d4846" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="fe854699-1bb4-4fbd-9ae3-762e7d1b9a2d" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="1894ca48-cb3c-46b8-b09c-478cd67f4ad8" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c192e837-3577-4e6e-9cc7-3a9d7348bdc0" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="535ac3f3-3c1b-411c-99a2-a107623ccda8" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="c0cd6a01-0e83-4e45-a67d-64dcdee2fd5b" name="button_Guardar_Click_1" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="79c484a2-6a0b-4605-bd4e-3cdfbd9d95db" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Respaldo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&amp;quot; Namespace=Respaldo Type=Form_Backup)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&amp;quot; Namespace=Respaldo Type=Form_Backup Member=(Name=button_Guardar_Click_1 OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&amp;quot; Namespace=System Type=Object),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&amp;quot; Namespace=System Type=EventArgs)]))&quot;)" tag="DGQL" />
+              <reference Id="13d1fa8a-2bf0-473c-bee9-e7df8ce58716" handle="(Assembly=&quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&quot; Namespace=Respaldo Type=Form_Backup Member=(Name=button_Guardar_Click_1 OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&quot; Namespace=System Type=Object),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&quot; Namespace=System Type=EventArgs)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="4735eb87-b380-4cad-b900-f917d252757e" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="27c960c8-7a4b-455d-b396-2dc85f718850" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="90c4a3de-cfea-4944-96a5-7acd4eeeb7b9" name="Respaldo" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="Respaldo(ruta)">
+            <referencesInternal>
+              <reference Id="bc058b9e-0c76-441a-9551-1fbdf3a2cf89" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=Respaldo)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&amp;quot; Namespace=Respaldo Type=Form_Backup)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&amp;quot; Namespace=Respaldo Type=Form_Backup Member=(Name=Respaldo OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="996564e9-a176-4f9b-8edb-ee4cd8ea626a" handle="(Assembly=&quot;$(decd83d1-f1fe-4555-8ca9-72c5db22f2d4.OutputPathUri)&quot; Namespace=Respaldo Type=Form_Backup Member=(Name=Respaldo OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8777f8bf-7df4-49f7-864a-b028ce769a2c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="5f0f09eb-43e4-4247-9018-3119bb547a15" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="ded8903f-acd1-4dd9-bab9-5ef0853f8e8d" name="Crear MySqlCommand" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="false" signatureText="new MySqlCommand()">
+            <referencesInternal>
+              <reference Id="a0850d61-4140-42fe-95ec-4c4d90f11fa3" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand Member=.ctor)&quot;)" tag="DGQL" />
+              <reference Id="f9f9cc88-15bd-4065-8b0e-401127890d6d" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand Member=.ctor)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="6b77a463-5d73-4991-b568-4612920c7f53" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="531209dd-e4f8-4bb9-8f59-52ac76ee68ab" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="65255937-ee44-45e0-b176-bb2c8919ba6d" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="b989e13f-2360-4c7b-8d62-0022455e250e" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="1f0bb313-241b-47f7-b211-b8cb6100153c" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="aa38e7a7-9c13-4807-9bb0-482e2a9281f3" name="Crear MySqlBackup" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="false" signatureText="new MySqlBackup(comando)">
+            <referencesInternal>
+              <reference Id="b96e9e3e-49b3-4962-8ffe-4eba405dc3a9" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup Member=(Name=.ctor OverloadingParameters=[(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand)]))&quot;)" tag="DGQL" />
+              <reference Id="87d22134-4c03-4f0d-aa66-762a83d327fe" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlCommand)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="24c0bb4a-370f-419e-83ea-a3ab23451964" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="4d15e0cc-3fa2-4545-b371-66f202be8152" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="ee73ae39-337e-4297-8361-a8123a5e5fd7" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="022ab4ff-4959-494e-b3e7-96d9eafcccea" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d80e7d88-8323-4919-a267-5e6f08e1b488" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="1ee9bd6b-3666-41da-96a7-97fb6dbe1b96" name="Open" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="conexion.Open()">
+            <referencesInternal>
+              <reference Id="2c394b0a-7ad5-4519-a3e9-a2086dd54b33" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection Member=Open)&quot;)" tag="DGQL" />
+              <reference Id="fe57f678-5b72-4910-9f1e-ae3cd1b12ad1" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection Member=Open)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e6769c9b-df68-404f-a87d-f89adbfeb6c2" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="b71bd233-a0d3-4d89-82b5-4bbc8795cebf" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="fce3ef02-1021-430a-a3a0-d2f32fdd1abe" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="f06799e1-d403-4b0f-9b23-9e4c49eb187a" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="ec49474e-06f1-4b88-9bf5-024eaf11f9c0" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="3587f625-94ca-46a9-bd6f-839dbfcf9486" name="ExportToFile" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="Backup.ExportToFile(ruta + &quot;.sql&quot;)">
+            <referencesInternal>
+              <reference Id="fc575323-2c89-4632-a76b-3567da0e5d8a" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup Member=(Name=ExportToFile OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="06a1dc40-9aba-4337-be0e-9b841069b1c8" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySqlBackup.1.0.1/lib/MySqlBackup.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlBackup Member=(Name=ExportToFile OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.8/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="e077fc81-3b7c-41d9-88a8-f0eea2ddbeb2" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="830600b7-f0a1-43c0-9e17-df7d204ee1ff" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="5bec8d1c-8515-4297-adba-347899092a0c" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="5ea8a829-ce21-4c67-bd1d-918f097be24f" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="9492a13f-d681-4fab-9bf3-a388ff55d84c" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="dab4b335-57e3-4e6e-8eab-4677ecc3ec4d" name="Close" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="conexion.Close()">
+            <referencesInternal>
+              <reference Id="64a9ef87-4f3d-4b92-b536-f43a6752e76e" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=MySql.Data.MySqlClient)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&amp;quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection Member=Close)&quot;)" tag="DGQL" />
+              <reference Id="d4bad187-1838-4223-8931-2b14a8817ab4" handle="(Assembly=&quot;$(VsSolutionUri)/packages/MySql.Data.6.9.9/lib/net45/MySql.Data.dll&quot; Namespace=MySql.Data.MySqlClient Type=MySqlConnection Member=Close)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ee8d5e3d-1111-49e6-8f6b-19625fee8b1c" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="8a6dffc6-d136-427a-843a-1ba8dc34576a" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="99b7845f-f3f4-4bd8-9615-e9a9ef48c3de" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="7d5bf8f6-0fbf-4b38-83de-2df7e608d752" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="c7b1dc1c-48db-4691-8c29-9e4cf7adabbc" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="42074400-a80f-4e8b-a1e5-cb4a19b95424" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6fdf0c78-f699-4662-a9be-a246335d75c3" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6299d8f8-3559-4539-9941-4e32be836957" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4a5d51d9-9b0f-4dc2-b3f1-af3a032d612e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="8965400b-404c-4a34-96b4-b517b15413d7" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="90a2f07b-9f8f-4cc9-8c18-f180223bcaad" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="fb62b6b1-cb74-4fd7-a88d-da812790ddec" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5db78a9c-c028-4ddc-bb31-60b8ec3d939f" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="21b0d355-0efc-4876-a8d9-4b53bdb4e10b" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d36f59ae-f894-4b93-8008-5e5ed7d2b2dd" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4f57b3ca-3b61-41c2-b1bc-a06eee8dbf20" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="84ecadb4-1ca8-4903-99c8-206f2fb810e4" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="6c078417-37f2-4006-92a2-4f6a0d32781f" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="a2aff25d-5779-4efa-9002-e13e33e3499a" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
