@@ -19,9 +19,9 @@ Aplicación de escritorio en **C# con Windows Forms** para la administración de
 
 ## Capturas de pantalla
 <img alt="loginUI" height="350" src="https://github.com/user-attachments/assets/d922b24a-7aa8-4a51-9430-fd38d98c7a9a" />
-<img alt="CreateClientUI" height="350" src="https://github.com/user-attachments/assets/10f20710-9354-4b1f-bd57-7c4ba4cbe1ee" />
-<img alt="UpdateClientUI" height="350" src="https://github.com/user-attachments/assets/1c4260e7-3265-49fd-8790-e8a460f0d1e9" />
-<img alt="BackUpUI" height="350" src="https://github.com/user-attachments/assets/b101c877-c620-4415-80d3-70a95e8079f8" />
+<img alt="CreateClientUI" height="400" src="https://github.com/user-attachments/assets/10f20710-9354-4b1f-bd57-7c4ba4cbe1ee" />
+<img alt="UpdateClientUI" height="400" src="https://github.com/user-attachments/assets/1c4260e7-3265-49fd-8790-e8a460f0d1e9" />
+<img alt="BackUpUI" height="400" src="https://github.com/user-attachments/assets/b101c877-c620-4415-80d3-70a95e8079f8" />
 
 
 ## Autor
